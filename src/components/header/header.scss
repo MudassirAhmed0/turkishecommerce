@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  padding: 2rem 10% 0;
+  width: 100%;
+  align-items: center;
+  .brandLogo {
+    width: 150px;
+    margin-right: 4rem;
+    img {
+      width: 100%;
+    }
+  }
+  .headerInputWrapper {
+    width: 250px;
+    position: relative;
+    .fa-search {
+      position: absolute;
+      top: 12px;
+      right: 15px;
+      color: #f82222;
+    }
+    input {
+      width: 100%;
+      background: #eaeaea;
+      border: none;
+      outline: none;
+      padding: 5px 20px;
+      border-radius: 20px;
+      padding: 10px;
+    }
+  }
+  ul {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    li {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      i {
+        font-size: 1.2rem;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #aaa;
+      }
+      .fa-shopping-cart {
+        background: #f82222;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-radius: 50%;
+        -webkit-text-stroke-color: #fff;
+      }
+      span {
+        color: #f82222;
+      }
+    }
+  }
+}

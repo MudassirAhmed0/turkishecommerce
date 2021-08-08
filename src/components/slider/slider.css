@@ -1,0 +1,25 @@
+.slider {
+  display: flex;
+  gap: 1rem;
+}
+.slider > .fa {
+  font-size: 3rem;
+  cursor: pointer;
+  position: relative;
+  top: 100px;
+  color: #ccc;
+}
+.slider .fa-chevron-left {
+  margin-right: 1rem;
+}
+.slider .fa-chevron-right {
+  margin-left: 1rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1rem;
+  max-width: 1070px;
+  overflow: hidden;
+  transition: 0.6s;
+}/*# sourceMappingURL=slider.css.map */

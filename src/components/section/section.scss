@@ -1,0 +1,56 @@
+.section {
+  margin: 5rem auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.offer {
+  margin-top: 5rem;
+  width: 87%;
+  border-radius: 20px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  max-width: 1070px;
+  p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+  }
+  .offerBtn {
+    padding: 15px 2rem;
+    outline: none;
+    border-radius: 4px;
+    background-color: #fff;
+
+    font-weight: bolder;
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    color: #888;
+  }
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  div {
+    text-align: center;
+    width: 100px;
+    span {
+      word-break: break-all;
+    }
+    img {
+      width: 100px;
+    }
+  }
+}

@@ -1,0 +1,61 @@
+footer {
+  padding: 5% 10%;
+  font-size: 14px;
+}
+.footerBrand {
+  img {
+    width: 150px;
+  }
+  .footerSocials {
+    color: #111;
+    margin-top: 0.7rem;
+    i {
+      font-size: 1.5rem;
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        color: #fff;
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.whiteColoredFooter {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 0;
+  span:nth-child(1) {
+    max-width: 400px;
+  }
+}
+.footerInputWrapper {
+  input {
+    padding: 5px;
+    outline: none;
+    border: none;
+    width: 200px;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  button {
+    padding: 5px 14px;
+    background: #111;
+    color: #fff;
+  }
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  li {
+    min-width: 100px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

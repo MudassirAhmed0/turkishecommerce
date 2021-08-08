@@ -1,0 +1,21 @@
+nav {
+  padding: 0 10%;
+  background: #eaeaea;
+  font-size: 14px;
+  position: relative;
+  top: 2rem;
+  // overflow: hidden;
+}
+nav > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  li {
+    min-width: 100px;
+    padding: 1rem 0;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

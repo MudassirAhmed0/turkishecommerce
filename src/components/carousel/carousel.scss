@@ -1,0 +1,78 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.carouselSlide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  img {
+    width: 100%;
+  }
+  .content {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 400px;
+
+    h2 {
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+    button {
+      background: #333;
+      padding: 1.2rem 3rem;
+      color: #fff;
+      margin-top: 1rem;
+      letter-spacing: 1.2px;
+      font-weight: bolder;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.carouselSlideThree,
+.carouselSlideTwo,
+.carouselSlideOne {
+  width: 0;
+  overflow: hidden;
+}
+.carouselSlideTwo {
+  .content {
+    left: 710px;
+  }
+}
+
+.slidersDot {
+  margin-top: 1rem;
+  display: flex;
+  span {
+    width: 13px;
+    height: 13px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+}
+
+.carouselSlideOne {
+  .slidersDot span:nth-child(1) {
+    background: #333;
+  }
+}
+.carouselSlideTwo {
+  .slidersDot span:nth-child(2) {
+    background: #333;
+  }
+}
+.carouselSlideThree {
+  .slidersDot span:nth-child(3) {
+    background: #333;
+  }
+}
+.carouselSlide.active {
+  width: 100%;
+}
